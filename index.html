@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XEL Rebirth</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0a0a1a;
+      color: white;
+      line-height: 1.6;
+    }
+    
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    
+    header {
+      position: fixed;
+      width: 100%;
+      z-index: 50;
+      background-color: rgba(10, 10, 26, 0.8);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid #2a2a4a;
+    }
+    
+    header .container {
+      padding: 16px 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .logo {
+      font-size: 1.875rem;
+      font-weight: bold;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo .x { color: #7e3aff; }
+    .logo .e { color: #3aceff; }
+    .logo .l { color: #ff3a8c; }
+    
+    section {
+      padding: 80px 0;
+    }
+    
+    .hero {
+      padding-top: 128px;
+      padding-bottom: 80px;
+    }
+    
+    h1 {
+      font-size: 2.25rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.875rem;
+      font-weight: bold;
+      margin-bottom: 3rem;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.75rem;
+    }
+    
+    p {
+      margin-bottom: 1.5rem;
+    }
+    
+    .text-gray-300 {
+      color: #d1d5db;
+    }
+    
+    .text-gray-500 {
+      color: #6b7280;
+    }
+    
+    .bg-dark {
+      background-color: #0f0f25;
+    }
+    
+    .card {
+      background-color: #1a1a35;
+      padding: 2rem;
+      border-radius: 0.5rem;
+    }
+    
+    .card-purple { border-top: 4px solid #7e3aff; }
+    .card-blue { border-top: 4px solid #3aceff; }
+    .card-pink { border-top: 4px solid #ff3a8c; }
+    
+    .icon-purple { color: #7e3aff; }
+    .icon-blue { color: #3aceff; }
+    .icon-pink { color: #ff3a8c; }
+    
+    .rounded {
+      border-radius: 0.5rem;
+    }
+    
+    .border-t {
+      border-top: 1px solid #2a2a4a;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+    }
+    
+    footer {
+      background-color: #0a0a1a;
+      border-top: 1px solid #2a2a4a;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    @media (min-width: 768px) {
+      h1 {
+        font-size: 3.75rem;
+      }
+      
+      h2 {
+        font-size: 2.25rem;
+      }
+      
+      .hero-content {
+        display: flex;
+        align-items: center;
+      }
+      
+      .hero-text {
+        width: 50%;
+        padding-right: 2rem;
+      }
+      
+      .hero-image {
+        width: 50%;
+      }
+      
+      .roadmap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span class="x">X</span>
+        <span class="e">E</span>
+        <span class="l">L</span>
+        <i class="fas fa-fire-alt" style="color: #ff3a8c; margin-left: 0.5rem;"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1><span style="color: #7e3aff;">XEL REBIRTH:</span> Reviving the Decentralized Computing Platform</h1>
+          <p class="text-gray-300" style="font-size: 1.25rem;">A solo developer initiative to bring back XEL - the decentralized supercomputing network</p>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg" alt="Phoenix rising from digital elements symbolizing rebirth">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark" id="about">
+    <div class="container">
+      <h2>About the Revival</h2>
+      <div style="max-width: 768px; margin: 0 auto;">
+        <p class="text-gray-300" style="font-size: 1.25rem;">XEL was a pioneering decentralized computing platform that allowed anyone to harness the power of distributed computing resources for complex computational tasks.</p>
+        <p class="text-gray-300" style="font-size: 1.25rem;">I'm reviving XEL because I believe in its original vision: making supercomputing accessible to everyone through blockchain technology, not just those with access to expensive hardware.</p>
+        <p class="text-gray-300" style="font-size: 1.25rem;">The future of XEL will focus on simplicity, accessibility, and practical applications - creating a network where computational power can be shared and utilized by anyone with an internet connection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="roadmap">
+    <div class="container">
+      <h2>Early Roadmap</h2>
+      <div class="roadmap">
+        <div class="card card-purple">
+          <div class="icon-purple" style="margin-bottom: 1rem;">
+            <i class="fas fa-search" style="font-size: 1.875rem;"></i>
+          </div>
+          <h3>Phase 1: Research & Planning</h3>
+          <p class="text-gray-300">
+            <span style="color: #7e3aff; font-weight: bold;">Current</span> - Studying the original codebase, planning architecture improvements, and defining core features.
+          </p>
+        </div>
+
+        <div class="card card-blue">
+          <div class="icon-blue" style="margin-bottom: 1rem;">
+            <i class="fas fa-code" style="font-size: 1.875rem;"></i>
+          </div>
+          <h3>Phase 2: Core Development</h3>
+          <p class="text-gray-300">
+            Building the foundation of the platform, implementing basic functionality, and creating developer tools.
+          </p>
+        </div>
+
+        <div class="card card-pink">
+          <div class="icon-pink" style="margin-bottom: 1rem;">
+            <i class="fas fa-rocket" style="font-size: 1.875rem;"></i>
+          </div>
+          <h3>Phase 3: Initial Release</h3>
+          <p class="text-gray-300">
+            Launching the first version with basic features, gathering feedback, and building the early community.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-dark">
+    <div class="container" style="max-width: 640px;">
+      <h2>Stay Updated</h2>
+      <p class="text-gray-300" style="font-size: 1.25rem; text-align: center; margin-bottom: 2.5rem;">This is just the beginning of the XEL revival journey. Follow along as the project develops from concept to reality.</p>
+      <div class="card" style="text-align: center;">
+        <p class="text-gray-300" style="margin-bottom: 1.5rem;">Contact information and community channels coming soon.</p>
+        <div style="display: inline-block; background: linear-gradient(to right, #7e3aff, #3aceff); padding: 2px; border-radius: 0.375rem;">
+          <div style="background-color: #1a1a35; border-radius: 0.375rem;">
+            <p style="padding: 0.75rem 1.5rem;">
+              <i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> Updates coming soon
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="text-gray-500">© 2025 XEL Rebirth</p>
+    </div>
+  </footer>
+</body>
+</html>
